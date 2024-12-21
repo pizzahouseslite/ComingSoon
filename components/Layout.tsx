@@ -7,7 +7,7 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div style="width: 100vw; height: 100vh; overflow: hidden;"
+  <div style={{ width: '100vw', height: '100vh', overflow: 'hidden' }}
     className="relative min-h-screen flex flex-col justify-center items-center bg-hero bg-cover">
     <Head>
       <title>{title} | Themeptation</title>
